@@ -1,19 +1,17 @@
 {
-    "name": "root/comp_test",
-    "description": "for learnning composer @_@!",
-    "type": "project",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "bunSen",
-            "email": "z@bunsen.top"
-        }
-    ],
-    "require": {
-		
-	},
-	"autoload":{
-		"psr-4":{"Root\\","root/src"},
-		"files":["root/library/functions.php"]
-	}
+  "name" : "root/comp_test",
+  "description" : "for learnning composer @_@!",
+  "version" : "0.0.1",
+  "license" : "MIT",
+  "autoload" : {
+    "psr-4" : {
+      "Root\\" : "root/src"
+    },
+    "files" : [ "root/library/functions.php" ]
+  },
+  "type" : "project",
+  "authors" : [ {
+    "name" : "bunSen",
+    "email" : "z@bunsen.top"
+  } ]
 }
